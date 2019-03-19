@@ -115,7 +115,7 @@ function visitorComputation () {
 // }
 // }
 function sendmessage (socket) {
-  socket.emit('message', 'lorem ipsum')
+  socket.emit('message', 'lorem ipsum dolar')
 }
 function computeData () {
   return this.visitorsData
